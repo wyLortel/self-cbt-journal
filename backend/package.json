@@ -1,0 +1,25 @@
+{
+  "name": "self-mental-backend",
+  "version": "1.0.0",
+  "description": "Self Mental API Backend",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "hono": "^4.0.0",
+    "dotenv": "^16.0.0",
+    "@prisma/client": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "zod": "^3.20.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "tsx": "^3.14.0",
+    "@types/node": "^20.3.1",
+    "@types/bcryptjs": "^2.4.2",
+    "prisma": "^5.0.0"
+  }
+}
